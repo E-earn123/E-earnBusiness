@@ -1,189 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Earning Business</title>
-
-<style>
-
-body{
-margin:0;
-font-family:Arial;
-background:#0f172a;
-color:white;
-}
-
-header{
-background:#111827;
-padding:15px;
-display:flex;
-justify-content:space-between;
-align-items:center;
-}
-
-header h1{
-color:#38bdf8;
-}
-
-nav a{
-color:white;
-text-decoration:none;
-margin:10px;
-}
-
-.hero{
-text-align:center;
-padding:80px 20px;
-}
-
-.hero h2{
-font-size:45px;
-}
-
-.hero p{
-color:#cbd5e1;
-font-size:20px;
-}
-
-.btn{
-background:#38bdf8;
-padding:12px 25px;
-border:none;
-border-radius:10px;
-color:white;
-font-size:18px;
-margin-top:20px;
-}
-
-.cards{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:20px;
-padding:30px;
-}
-
-.card{
-background:#1e293b;
-padding:25px;
-border-radius:15px;
-text-align:center;
-}
-
-.card h3{
-font-size:30px;
-}
-
-.price{
-font-size:40px;
-color:#38bdf8;
-}
-
-.login-box{
-background:#1e293b;
-width:300px;
-margin:40px auto;
-padding:30px;
-border-radius:15px;
-}
-
-.login-box input{
-width:100%;
-padding:12px;
-margin:10px 0;
-border:none;
-border-radius:8px;
-}
-
-footer{
-text-align:center;
-padding:20px;
-background:#111827;
-margin-top:50px;
-}
-
-</style>
+  <meta charset="UTF-8">
+  <title>E-earnBusiness</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-<h1>E-earningBusiness</h1>
-
-<nav>
-<a href="#">Home</a>
-<a href="#">Plans</a>
-<a href="#">Login</a>
-<a href="#">Contact</a>
-</nav>
+  <h1>E-earnBusiness</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#login">Login</a>
+    <a href="#register">Register</a>
+    <a href="#contact">Contact</a>
+  </nav>
 </header>
 
-<section class="hero">
-
-<h2>Grow Your Money Online</h2>
-
-<p>
-Join our online investment platform and start earning safely.
-</p>
-
-<button class="btn">
-Start Investing
-</button>
-
+<section id="home">
+  <h2>Welcome to E-earnBusiness 🚀</h2>
+  <p>Start earning online with us.</p>
 </section>
 
-<section class="cards">
-
-<div class="card">
-<h3>Starter</h3>
-<p class="price">$5</p>
-<p>Perfect for beginners.</p>
-<button class="btn">Invest</button>
-</div>
-
-<div class="card">
-<h3>Standard</h3>
-<p class="price">$15</p>
-<p>Most popular plan.</p>
-<button class="btn">Invest</button>
-</div>
-
-<div class="card">
-<h3>Premium</h3>
-<p class="price">$50</p>
-<p>Advanced earning package.</p>
-<button class="btn">Invest</button>
-</div>
-
+<section id="login">
+  <h2>Login</h2>
+  <input type="text" placeholder="Username">
+  <input type="password" placeholder="Password">
+  <button>Login</button>
 </section>
 
-<div class="login-box">
+<section id="register">
+  <h2>Register</h2>
+  <input type="text" placeholder="Name">
+  <input type="email" placeholder="Email">
+  <input type="password" placeholder="Password">
+  <button>Sign Up</button>
+</section>
 
-<h2>Login</h2>
+<section id="payment">
+  <h2>Payment Method</h2>
+  <p>MTN Mobile Money / Airtel Money</p>
+</section>
 
-<input type="text" placeholder="Username">
-
-<input type="password" placeholder="Password">
-
-<button class="btn">
-Login
-</button>
-
-<p>
-Don't have account?
-<a href="#" style="color:#38bdf8;">Register</a>
-</p>
-
-</div>
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Email: support@eearnbusiness.com</p>
+</section>
 
 <footer>
-
-<p>
-© 2026 E-earningBusiness - All Rights Reserved
-</p>
-
+  <p>© 2026 E-earnBusiness</p>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
